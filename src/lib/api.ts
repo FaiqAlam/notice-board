@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://notice-board-1-y3in.onrender.com/api'
+  baseURL: 'https://notice-board-bs2f.onrender.com/api'
 });
 
 api.interceptors.request.use((config) => {
